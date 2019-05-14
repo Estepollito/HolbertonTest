@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Image-nation
+    </title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <ul>
+	<li><a href="index.html"><span>Home</span></a></li>
+	<li><a href="create.html"><span>Create</span></a></li>
+	<li><a href="share.html"><span>Share</span></a></li>
+	<li><a href="about.html"><span>About this</span></a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h1>Tweets Section</h1>
+      
+      <blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Gracias a <a href="https://twitter.com/Dropbox?ref_src=twsrc%5Etfw">@Dropbox</a>, tus archivos siempre estarán contigo cuando los necesites. Regístrate para crear una cuenta <a href="https://t.co/lnOgb2qBGf">https://t.co/lnOgb2qBGf</a></p>&mdash; esteban (@estebanpalaciov) <a href="https://twitter.com/estebanpalaciov/status/557310195207258112?ref_src=twsrc%5Etfw">19 de enero de 2015</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  
+      <h2>h2</h2>
+      <p>p2</p>
+      <p>p3</p>
+      <p>p4</p>
+      <h3>Supported by:</h3>
+      <a href="https://www.holbertonschool.com">
+	<img src="https://www.holbertonschool.com/holberton-logo.png" alt="">
+      </a>
+    </main>
+
+    <footer>
+            Made by <a href="https://twitter.com/estebanpalaciov" target="_blank">Esteban Palacio</a> for <a href="https:/\
+														   /www.holbertonschool.com" target="_blank">Holberton School</a>.
+    </footer>
+
+  </body>
+</html>
