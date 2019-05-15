@@ -8,12 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="behavior.js"></script>
   </head>
   <body class="works_on_smartphone">
 
-  <!-- ----------------------------HEADER---------------------------- -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+
+  <!-- /////////////////HEADER///////////////// -->
 
     <header>
+      <div class="right">
+
+        <!-- Facebook share button code -->
+        <div class="fb-share-button" data-href="http://3.84.179.52" data-layout="button_count" data-size="large">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3.84.179.52%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+        </div>
+
+        <!-- Twitter share button code -->
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="http://3.84.179.52" data-lang="en" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+      
       <ul>
         <li class="logo"><a href="index.html">&#8734;</a></li>
         <li><a href="create.html">Create</a></li>
@@ -22,24 +39,40 @@
       </ul>
     </header>
 
-  <!-- ----------------------------MAIN---------------------------- -->
+  <!-- /////////////////MAIN///////////////// -->
 
     <main>
       <article>
         <h1>So, why is this thing here?</h1>
         
-        <h3>Supported by:</h3>
+        <h3 class="text-center">Supported by:</h3>
         <a href="https://www.holbertonschool.com">
-          <img src="https://www.holbertonschool.com/holberton-logo.png" alt="">
+          <img class="text-center" src="https://www.holbertonschool.com/holberton-logo.png" alt="">
         </a>
       </article>
 
       <aside>
-        placeholder to add comment thread later
+        
+        <div id="disqus_thread"></div>
+        <script>
+        // var disqus_config = function () {
+        // this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        // };
+      
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://image-nation.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
       </aside>
     </main>
 
-  <!-- ----------------------------FOOTER---------------------------- -->
+  <!-- /////////////////FOOTER///////////////// -->
 
     <footer>
       Made by <a href="https://twitter.com/estebanpalaciov" target="_blank">Esteban Palacio</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.

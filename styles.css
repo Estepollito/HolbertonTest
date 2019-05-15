@@ -49,3 +49,14 @@ a:active {
   	margin-right: auto;
   	width: 40%;
 }
+
+.right {
+	margin: auto !important;
+	display: inline-flex;
+	padding-left: 10px
+}
+
+header ul{
+	margin-top: 20px;
+}
+
