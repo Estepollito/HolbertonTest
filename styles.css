@@ -48,7 +48,7 @@ a:active {
 	display: block;
  	margin-left: auto;
   	margin-right: auto;
-  	width: 40%;
+  	width: auto;
 }
 
 .text-center1 {
@@ -161,4 +161,8 @@ canvas {
 	object-position: 30%;
   	width: 500px;
   	border-radius: 100% 100% 100% 100%
+}
+
+.notsosmall {
+	width: 50%;
 }
