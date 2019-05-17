@@ -153,6 +153,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	    
 	  }, false);
 	
+	// if ($(window).width() < 767) {
+ //        $( function() {
+	//     	$( "#image1" ).draggable({ revert: "invalid" });
+	//     	$( ".droppable" ).droppable({
+ //      		});
+ //  		});
+	// }   	
+
 });
 
 
