@@ -11,6 +11,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	flex: auto;
+	border: 10px solid #ddd;
 }
 
 article {
@@ -50,6 +51,30 @@ a:active {
   	width: 40%;
 }
 
+.text-center1 {
+	text-align: center !important;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+.text-center2 {
+	/*text-align: justify;*/
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+.text-justify {
+	text-align: justify;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
 .right {
 	margin: auto !important;
 	display: inline-flex;
@@ -60,3 +85,80 @@ header ul{
 	margin-top: 20px;
 }
 
+.container {
+	width: 50%;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.container1 {
+	width: 80%;
+	display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	grid-gap: 5px;
+}
+
+.container2 {
+	width: 80%;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.small {
+	width: 20%;
+}
+
+.space {
+	height: 20px;
+}
+
+.column {
+  cursor: move;
+  /*border: 2px dashed #000;*/
+  /*outline: 1px dashed gray;*/
+  outline-offset: -1px;
+}
+
+.button {
+	text-align: center !important;
+	display: inline-block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: auto;
+  	border-radius: 5px;
+  	font-family: "Yeseva One", sans-serif;
+}
+
+.button:focus {
+  outline: none;
+}
+
+#smartCollage { 
+	position: relative; 
+}
+
+canvas {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0;
+	display: hide; 
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.aboutImage {
+	object-fit: none;
+	object-position: 30%;
+  	width: 500px;
+  	border-radius: 100% 100% 100% 100%
+}
